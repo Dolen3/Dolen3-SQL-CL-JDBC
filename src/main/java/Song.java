@@ -51,7 +51,7 @@ public class Song {
     }
 
     public Song title(String title) {
-        settitle(title);
+        setTitle(title);
         return this;
     }
 
@@ -80,7 +80,7 @@ public class Song {
     public String toString() {
         return "{" +
             " id='" + getId() + "'" +
-            ", title='" + gettitle() + "'" +
+            ", title='" + getTitle() + "'" +
             ", artist='" + getArtist() + "'" +
             "}";
     }
